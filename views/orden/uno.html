@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-param" content="_csrf">
+        <meta name="csrf-token" content="NkRHSHFJRU5PcgMMBREML2QREiA6JQc8R2kYDUgWcjtBKHAkJyImfg==">
+        <title>Ordenes para tutorial</title>
+        <link href="/programacion/miAppHostinger/miApp/web/assets/1bef8b27/css/bootstrap.css" rel="stylesheet">
+        <link href="/programacion/miAppHostinger/miApp/web/assets/b79b3c86/css/kv-widgets.css" rel="stylesheet">
+        <link href="/programacion/miAppHostinger/miApp/web/assets/b6f6a258/css/bootstrap-datepicker3.css" rel="stylesheet">
+        <link href="/programacion/miAppHostinger/miApp/web/assets/b6f6a258/css/datepicker-kv.css" rel="stylesheet">
+        <link href="/programacion/miAppHostinger/miApp/web/css/site.css" rel="stylesheet">
+        <link href="/programacion/miAppHostinger/miApp/web/assets/11dee44b/toolbar.css" rel="stylesheet">
+        <script type="text/javascript">var kvDatepicker_4c58a675 = {"id":"fecha1","autoclose":true,"format":"yyyy-mm-dd","todayHighlight":true,"language":"es"};
+        var kvDatepicker_9343598d = {"id":"fecha2","autoclose":true,"format":"yyyy-mm-dd","startView":"year","todayHighlight":true,"language":"es"};
+    </script>    </head>
+    <body>
+        
+        <div class="wrap">
+            <nav id="w4" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w4-collapse"><span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span></button><a class="navbar-brand" href="/programacion/miAppHostinger/miApp/web/index.php">Mi App</a></div><div id="w4-collapse" class="collapse navbar-collapse"><ul id="w5" class="navbar-nav navbar-right nav"><li><a href="/programacion/miAppHostinger/miApp/web/index.php?r=site%2Findex">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Control Peso <b class="caret"></b></a><ul id="w6" class="dropdown-menu"><li><a href="/programacion/miAppHostinger/miApp/web/index.php?r=peso%2Findex" tabindex="-1">Pesos index</a></li>
+            <li><a href="/programacion/miAppHostinger/miApp/web/index.php?r=cosas%2Fpeso" tabindex="-1">Grafica Peso 1</a></li>
+            <li><a href="/programacion/miAppHostinger/miApp/web/index.php?r=peso%2Fgrafica" tabindex="-1">Grafica Peso 2</a></li>
+            <li><a href="/programacion/miAppHostinger/miApp/web/index.php?r=peso%2Fpesado" tabindex="-1">Pesado ?</a></li></ul></li>
+            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Bitacora <b class="caret"></b></a><ul id="w7" class="dropdown-menu"><li><a href="/programacion/miAppHostinger/miApp/web/index.php?r=entradasbitacora%2Findex" tabindex="-1">Entrada</a></li>
+            <li><a href="/programacion/miAppHostinger/miApp/web/index.php?r=tipoentradasbitacora%2Findex" tabindex="-1">Tipo Entrada</a></li></ul></li>
+            <li><a href="/programacion/miAppHostinger/miApp/web/index.php?r=site%2Fabout">About</a></li>
+            <li><a href="/programacion/miAppHostinger/miApp/web/index.php?r=site%2Fcontact">Contact</a></li>
+            <li><a href="/programacion/miAppHostinger/miApp/web/index.php?r=prueba%2Fa">Salidas</a></li>
+            <li><a href="/programacion/miAppHostinger/miApp/web/index.php?r=salidas%2Findex">Salidas</a></li>
+            <li><a href="/programacion/miAppHostinger/miApp/web/index.php?r=site%2Fvisitas">Visitas</a></li>
+            <li><a href="/programacion/miAppHostinger/miApp/web/index.php?r=marcadoresimportados%2Findex">Marcadores</a></li>
+            <li><a href="/programacion/miAppHostinger/miApp/web/index.php?r=site%2Flogout" data-method="post">Logout (javier)</a></li></ul></div></div></nav>
+            <div class="container">
+                <ul class="breadcrumb"><li><a href="/programacion/miAppHostinger/miApp/web/index.php">Inicio</a></li>
+                <li class="active">Ordenes para tutorial</li>
+            </ul>                <div class="orden-index">
+            <h1>Ordenes para tutorial</h1>
+            <!--el formulario de busqueda que se despliega -->
+            <div id="w1" class="panel-group">
+                <div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a class="collapse-toggle" href="#w1-collapse1" data-toggle="collapse" data-parent="#w1">Buscar</a>
+            </h4></div>
+            <div id="w1-collapse1" class="panel-collapse collapse"><div class="panel-body">
+                <div class="orden-search">
+                    <form id="w0" action="/programacion/miAppHostinger/miApp/web/index.php" method="get">
+                        <input type="hidden" name="r" value="orden/index">
+                        <div class="form-group field-ordensearch-id">
+                            <label class="control-label" for="ordensearch-id">ID</label>
+                            <input type="text" id="ordensearch-id" class="form-control" name="OrdenSearch[id]">
+                            <div class="help-block"></div>
+                        </div>
+                        <div class="form-group field-ordensearch-cliente_id">
+                            <label class="control-label" for="ordensearch-cliente_id">Cliente ID</label>
+                            <input type="text" id="ordensearch-cliente_id" class="form-control" name="OrdenSearch[cliente_id]">
+                            <div class="help-block"></div>
+                        </div>
+                        <div class="form-group field-ordensearch-fecha">
+                            <label class="control-label" for="ordensearch-fecha">Fecha</label>
+                            <div id="ordensearch-fecha-kvdate" class="input-group date"><span class="input-group-addon kv-date-calendar" title="Seleccionar fecha"><i class="glyphicon glyphicon-calendar"></i></span><span class="input-group-addon kv-date-remove" title="Limpiar campo"><i class="glyphicon glyphicon-remove"></i></span><input type="text" id="ordensearch-fecha" class="form-control" name="OrdenSearch[fecha]" style="width:140px" data-datepicker-source="ordensearch-fecha-kvdate" data-datepicker-type="2" data-krajee-kvDatepicker="kvDatepicker_4c58a675"></div>
+                            <div class="help-block"></div>
+                        </div>
+                        <div class="form-group field-ordensearch-estado">
+                            <label class="control-label" for="ordensearch-estado">Estado</label>
+                            <input type="text" id="ordensearch-estado" class="form-control" name="OrdenSearch[estado]">
+                            <div class="help-block"></div>
+                        </div>
+                        <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Search</button>        <button type="reset" class="btn btn-default">Reset</button>    </div>
+                    </form>
+                </div>
+            </div>
+        </div></div>
+    </div>
+    <p>
+        <a class="btn btn-success" href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fcreate">Create Orden</a>    </p>
+        <form id="w2" action="/programacion/miAppHostinger/miApp/web/index.php" method="get">
+            <input type="hidden" name="r" value="orden/index">
+            <div id="w3" class="grid-view"><div class="summary">Mostrando <b>1-5</b> de <b>5</b> elementos.</div>
+            <table class="table table-striped table-bordered"><colgroup><col>
+                <col>
+                <col>
+                <col style="width: 20%;">
+                <col>
+                <col></colgroup>
+                <thead>
+                    <tr><th>#</th><th><a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Findex&amp;sort=id" data-sort="id">ID</a></th><th><a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Findex&amp;sort=cliente_id" data-sort="cliente_id">Cliente ID</a></th><th><a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Findex&amp;sort=fecha" data-sort="fecha">Fecha</a></th><th><a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Findex&amp;sort=estado" data-sort="estado">Estado</a></th><th>&nbsp;</th></tr><tr id="w3-filters" class="filters"><td>&nbsp;</td><td><input type="text" class="form-control" name="OrdenSearch[id]"></td><td><input type="text" class="form-control" name="OrdenSearch[cliente_id]"></td><td><div id="ordensearch-fecha-kvdate" class="input-group date"><span class="input-group-addon kv-date-calendar" title="Seleccionar fecha"><i class="glyphicon glyphicon-calendar"></i></span><span class="input-group-addon kv-date-remove" title="Limpiar campo"><i class="glyphicon glyphicon-remove"></i></span><input type="text" id="ordensearch-fecha" class="form-control" name="OrdenSearch[fecha]" placeholder="la fecha en la busqeda" data-datepicker-source="ordensearch-fecha-kvdate" data-datepicker-type="2" data-krajee-kvDatepicker="kvDatepicker_9343598d"></div></td><td><input type="text" class="form-control" name="OrdenSearch[estado]"></td><td>&nbsp;</td></tr>
+                </thead>
+                <tbody>
+                    <tr data-key="1"><td>1</td><td>1</td><td>1</td><td>2015-12-31</td><td>E</td><td><a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fview&amp;id=1" title="Ver" aria-label="Ver" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a> <a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fupdate&amp;id=1" title="Actualizar" aria-label="Actualizar" data-pjax="0"><span class="glyphicon glyphicon-pencil"></span></a> <a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fdelete&amp;id=1" title="Eliminar" aria-label="Eliminar" data-confirm="¿Está seguro de eliminar este elemento?" data-method="post" data-pjax="0"><span class="glyphicon glyphicon-trash"></span></a></td></tr>
+                    <tr data-key="2"><td>2</td><td>2</td><td>2</td><td>2016-01-20</td><td>P</td><td><a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fview&amp;id=2" title="Ver" aria-label="Ver" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a> <a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fupdate&amp;id=2" title="Actualizar" aria-label="Actualizar" data-pjax="0"><span class="glyphicon glyphicon-pencil"></span></a> <a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fdelete&amp;id=2" title="Eliminar" aria-label="Eliminar" data-confirm="¿Está seguro de eliminar este elemento?" data-method="post" data-pjax="0"><span class="glyphicon glyphicon-trash"></span></a></td></tr>
+                    <tr data-key="3"><td>3</td><td>3</td><td>2</td><td>2016-01-21</td><td>P</td><td><a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fview&amp;id=3" title="Ver" aria-label="Ver" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a> <a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fupdate&amp;id=3" title="Actualizar" aria-label="Actualizar" data-pjax="0"><span class="glyphicon glyphicon-pencil"></span></a> <a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fdelete&amp;id=3" title="Eliminar" aria-label="Eliminar" data-confirm="¿Está seguro de eliminar este elemento?" data-method="post" data-pjax="0"><span class="glyphicon glyphicon-trash"></span></a></td></tr>
+                    <tr data-key="4"><td>4</td><td>4</td><td>3</td><td>2016-01-21</td><td>P</td><td><a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fview&amp;id=4" title="Ver" aria-label="Ver" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a> <a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fupdate&amp;id=4" title="Actualizar" aria-label="Actualizar" data-pjax="0"><span class="glyphicon glyphicon-pencil"></span></a> <a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fdelete&amp;id=4" title="Eliminar" aria-label="Eliminar" data-confirm="¿Está seguro de eliminar este elemento?" data-method="post" data-pjax="0"><span class="glyphicon glyphicon-trash"></span></a></td></tr>
+                    <tr data-key="5"><td>5</td><td>5</td><td>4</td><td>2016-01-22</td><td>P</td><td><a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fview&amp;id=5" title="Ver" aria-label="Ver" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a> <a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fupdate&amp;id=5" title="Actualizar" aria-label="Actualizar" data-pjax="0"><span class="glyphicon glyphicon-pencil"></span></a> <a href="/programacion/miAppHostinger/miApp/web/index.php?r=orden%2Fdelete&amp;id=5" title="Eliminar" aria-label="Eliminar" data-confirm="¿Está seguro de eliminar este elemento?" data-method="post" data-pjax="0"><span class="glyphicon glyphicon-trash"></span></a></td></tr>
+                </tbody></table>
+            </div>
+        </form></div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left">&copy; Mi App  1.0.1 2016</p>
+        <p class="pull-right">Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></p>
+    </div>
+</footer>
+<div id="yii-debug-toolbar" data-url="/programacion/miAppHostinger/miApp/web/index.php?r=debug%2Fdefault%2Ftoolbar&amp;tag=56c0ec62052c8" style="display:none" class="yii-debug-toolbar-bottom"></div><script src="/programacion/miAppHostinger/miApp/web/assets/c31b1866/jquery.js"></script>
+<script src="/programacion/miAppHostinger/miApp/web/assets/c8a0a571/yii.js"></script>
+<script src="/programacion/miAppHostinger/miApp/web/assets/c8a0a571/yii.validation.js"></script>
+<script src="/programacion/miAppHostinger/miApp/web/assets/b6f6a258/js/bootstrap-datepicker.js"></script>
+<script src="/programacion/miAppHostinger/miApp/web/assets/b6f6a258/js/datepicker-kv.js"></script>
+<script src="/programacion/miAppHostinger/miApp/web/assets/b6f6a258/js/locales/bootstrap-datepicker.es.min.js"></script>
+<script src="/programacion/miAppHostinger/miApp/web/assets/c8a0a571/yii.activeForm.js"></script>
+<script src="/programacion/miAppHostinger/miApp/web/assets/1bef8b27/js/bootstrap.js"></script>
+<script src="/programacion/miAppHostinger/miApp/web/assets/c8a0a571/yii.gridView.js"></script>
+<script src="/programacion/miAppHostinger/miApp/web/assets/11dee44b/toolbar.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery('#ordensearch-fecha-kvdate').kvDatepicker(kvDatepicker_4c58a675);
+initDPRemove('ordensearch-fecha');
+jQuery('#w0').yiiActiveForm([{"id":"ordensearch-id","name":"id","container":".field-ordensearch-id","input":"#ordensearch-id","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^\s*[+-]?\d+\s*$/,"message":"ID debe ser un número entero.","skipOnEmpty":1});}},{"id":"ordensearch-cliente_id","name":"cliente_id","container":".field-ordensearch-cliente_id","input":"#ordensearch-cliente_id","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^\s*[+-]?\d+\s*$/,"message":"Cliente ID debe ser un número entero.","skipOnEmpty":1});}}], []);
+jQuery('#w1').collapse();
+jQuery('#ordensearch-fecha-kvdate').kvDatepicker(kvDatepicker_9343598d);
+jQuery('#w3').yiiGridView({"filterUrl":"\/programacion\/miAppHostinger\/miApp\/web\/index.php?r=orden","filterSelector":"#w3-filters input, #w3-filters select"});
+jQuery('#w2').yiiActiveForm([], []);
+});</script>    </body>
+</html>
